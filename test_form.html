@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Price Estimator</title>
+</head>
+<body>
+    <form action="http://127.0.0.1:8080/price-estimator" method="POST">
+        <label for="ingredientList">Ingredient List:</label><br>
+        <textarea id="ingredientList" name="ingredientList" rows="4" cols="50">3 oz flour
+2 oz sugar</textarea><br><br>
+        <label for="servings">Servings:</label><br>
+        <input type="number" id="servings" name="servings" value="2"><br><br>
+        <button type="submit">Get Price Estimate</button>
+    </form>
+</body>
+</html>
